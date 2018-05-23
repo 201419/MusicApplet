@@ -12,8 +12,8 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "1.0.1",
-	"appid": "wxe5c827e59409f6eb",
-	"projectname": "wymusic",
+	"appid": "这里是你的小程序AppID",
+	"projectname": "MusicApplet",
 	"isGameTourist": false,
 	"condition": {
 		"search": {
