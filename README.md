@@ -5,7 +5,7 @@
 
 ### Screenshots
 
-![程序主界面](./Screenshots/main.png)
+![程序主界面](./Screenshots/main.png =540x930)
 
 ### 待改进
 
