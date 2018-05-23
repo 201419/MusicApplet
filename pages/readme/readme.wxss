@@ -1,0 +1,7 @@
+/* pages/readme/readme.wxss */
+
+
+.introduction {
+  display: flex;
+  padding: 40rpx;
+}

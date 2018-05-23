@@ -1,0 +1,37 @@
+    <!-- 我的nickname -->
+    <view class="userinfo">
+        <image
+            class="userImg"
+            src=" ../../images/user.jpg "
+            background-size="cover"
+        ></image>
+        <view>
+            <text class="userNickname">t9UhoI</text>
+        </view>
+    </view>
+
+    <!-- 自我介绍 -->
+    <view class="uploader">
+        <navigator url="../readme/readme" open-type="navigate" class="uploader-text">
+            <text>readme</text>
+        </navigator>
+    </view>
+
+<view class="container">
+	<block wx:for="{{favlist}}">
+		<view class="block" bindtap="playTap" data-name="{{item.name}}">
+			<image class="left" wx:if="{{item.picurl}}" src="{{item.picurl}}" mode="aspectFit"/>
+			<view wx:else class="default">
+				<image src="../../images/default.png" mode="aspectFit"/>	
+			</view>
+			<view class="right">
+				<view>
+					<text class="fav-name">{{item.name}}</text>	
+				</view>
+				<view>
+					<text class="fav-count">共{{item.count}}首</text>
+				</view>
+			</view>
+		</view>	
+	</block>
+</view>
